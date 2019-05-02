@@ -3,7 +3,7 @@
 
 Body Here
 
-@component('mail::button', ['url' => '/login'])
+@component('mail::button', ['url' => 'projectowl.test'])
 Button Text
 @endcomponent
 
