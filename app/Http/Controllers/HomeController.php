@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        \Mail::to('myemail@example.com')->send(
+        \Mail::to('user->email')->send(
             new ProjectCreated('project')
         );
         return view('welcome');
